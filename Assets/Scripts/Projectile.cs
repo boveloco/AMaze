@@ -10,7 +10,10 @@ public class Projectile : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
         {
             Invoke("Restart", 0.2f);
+        } else {
+            Destroy(gameObject);
         }
+
     }
 
     public class SomeClass : MonoBehaviour

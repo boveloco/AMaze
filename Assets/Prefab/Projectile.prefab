@@ -99,7 +99,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!65 &65662194244971086
 BoxCollider:
@@ -119,12 +119,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1549442371708528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70274308166a5be4a9d2f5dd4dbd9be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3
+  time: 1
 --- !u!114 &114588946435510592
 MonoBehaviour:
   m_ObjectHideFlags: 1
