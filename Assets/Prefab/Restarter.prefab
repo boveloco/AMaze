@@ -22,8 +22,7 @@ GameObject:
   - component: {fileID: 33270935205201616}
   - component: {fileID: 65662194244971086}
   - component: {fileID: 54657565461909544}
-  - component: {fileID: 114510698882219754}
-  - component: {fileID: 114588946435510592}
+  - component: {fileID: 114832790427889466}
   m_Layer: 0
   m_Name: Restarter
   m_TagString: Untagged
@@ -78,19 +77,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114510698882219754
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1549442371708528}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70274308166a5be4a9d2f5dd4dbd9be8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 1
---- !u!114 &114588946435510592
+--- !u!114 &114832790427889466
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -98,6 +85,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1549442371708528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7144d1d7628c21a4e996135cc08b13d4, type: 3}
+  m_Script: {fileID: 11500000, guid: dd4dc52b940fc4335b26ca4222e67bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
